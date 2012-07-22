@@ -1,64 +1,79 @@
 # PHP: The Right Way
 
-## Overview
+## Información general
 
-This is the GitHub Pages repository for the _PHP: The Right Way_ project.
+Éste es el repositorio en GitHub Pages para el proyecto _PHP: The Right Way_.
 
-* This website is a Jekyll project.
-* Each section and sub-section are a Markdown file in `_posts/`.
-* Sub-sections have `isChild: true` in their front matter.
-* The navigation and page structure are automatically generated.
+* Este sitio web es un proyecto en Jekyll.
+* Cada sección y subsección es un archivo Markdown ubicado en `_posts/`.
+* Las subsecciones tienen `isChild: true` en su cabecera.
+* La navegación y la estructura de la página se generan automáticamente.
 
-## Spread the Word!
+## ¡Corre la voz!
 
-_PHP: The Right Way_ has web banner images you can use on your website. Show your support, and let new PHP
-developers know where to find good information!
+_PHP: The Right Way_ tiene imágenes de anuncios web que puedes utilizar en tu sitio web.
+¡Muestra tu apoyo, y permite que nuevos desarrolladores en PHP conozcan dónde encontrar buena
+información!
 
-[See Banner Images](http://www.phptherightway.com/banners.html)
+[Ver las imágenes de anuncios](http://es.phptherightway.com/banners.html)
 
-## How to Contribute
+## Cómo contribuir
 
-1. Fork and edit
-2. Optionally install [Ruby](https://rvm.io/rvm/install/) with [Jekyll](https://github.com/mojombo/jekyll/) gem to preview locally
-3. Submit pull request for consideration
+1. Saca tu **Fork** y edita.
+2. Opcionalmente instala [Ruby](https://rvm.io/rvm/install/) con la gema [Jekyll](https://github.com/mojombo/jekyll/)
+   para visualizar localmente.
+3. Envía tu **Pull Request** para consideración.
 
-### Contributor Style Guide
+### Guía de estilo del contribuidor
 
-1. Use American English spelling (*primary English repo only*)
-2. Use four (4) spaces to indent text; do not use tabs.
-3. Wrap all text to 120 characters.
-4. Code samples should adhere to PSR-1 or higher.
+1. Utiliza Inglés Americano (*solo para el repositorio principal en Inglés*)
+3. Utiliza cuatro (4) espacios para el sangrado; no utilices tabulaciones.
+4. No utilices más de 120 caracteres por línea.
+5. Los códigos de ejemplo deben adherirse al estándar
+   [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md) o superior.
 
-## Where
+## Dónde
 
 <http://www.phptherightway.com>
 
-### Translations
+### Traducciones
 
-If you are interested in translating _PHP: The Right Way_, fork this repo on GitHub and publish your localized fork to your own GitHub Pages account. We'll link to your translation from the primary document.
+**Este repositorio pertenece a la traducción en español de _PHP: The Right Way_. Si deseas colaborar,
+recuerda utilizar, en lo posible, un Español internacional. Y te agradecería inmensamente me ayudaras
+con términos como **Fork** o **Pull Request**, ya que para mí, sus traducciones no son adecuadas.**
 
-To avoid fragmentation and reader confusion, please choose one of these options:
+Si estás interesando en traducir _PHP: The Right Way_, crea un **Fork** de este repositorio en GitHub
+y publica tu copia localizada en tu propia cuenta de GitHub Pages. Nosotros vincularemos tu traducción
+desde el documento principal.
 
-1. We link to your GitHub Pages fork with `[username].github.com/php-the-right-way`
-2. We link to your GitHub Pages fork with a subdomain (e.g. "ru.phptherightway.com")
+Para evitar fragmentación y confusión en el lector, por favor escoge una de las siguientes opciones:
 
-If you use a subdomain, enter the subdomain into the `CNAME` file, and ask us to setup DNS for you. If you do not use a subdomain, remove the `CNAME` file entirely else your fork will not build when pushed.
+1. Enlazamos tu copia de GitHub Pages con `[nombredeusuario].github.com/php-the-right-way`
+2. Enlazamos tu copia de GitHub Pages con un subdominio (ejemplo: "es.phptherightway.com")
 
-When your translation is ready, open an issue on the Issue Tracker to let us know.
+Si utilizas un subdominio, ingresa el subdominio en el archivo `CNAME`, y solicítanos que configuremos
+el DNS por ti. Si no utilizas el subdominio, asegúrate de quitar el archivo `CNAME` de lo contrario
+tu copia no será generada cuando actualices.
 
-## Why
+Cuando tu traducción esté lista, genera un evento en “Issues” para hacernos saber.
 
-There's been a lot of discussion lately about how the PHP community lacks sufficient, credible information for programmers new to PHP. This repository aims to solve this problem.
+## ¿Por qué?
 
-## Who
+Últimamente se ha generado mucha discusión sobre cómo la comunidad PHP carece de información
+creíble y suficiente para nuevos programadores en PHP. Este repositorio busca solucionar
+este problema.
 
-My name is [Josh Lockhart](http://twitter.com/codeguy). I'm the author of the [Slim Framework](http://www.slimframework.com/), and I work for [New Media Campaigns](http://www.newmediacampaigns.com/).
+## ¿Quién?
 
-### Collaborators
+Mi nombre es [Josh Lockhart](http://twitter.com/codeguy). Soy el autor de
+[Slim Framework](http://www.slimframework.com/), y trabajo para
+[New Media Campaigns](http://www.newmediacampaigns.com/).
+
+### Colaboradores
 
 * [Kris Jordan](http://krisjordan.com/)
 * [Phil Sturgeon](http://philsturgeon.co.uk/)
 
-## License
+## Licencia
 
-[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/)
+[Licencia Atribución-NoComercial-CompartirIgual 3.0 Unported](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es)
