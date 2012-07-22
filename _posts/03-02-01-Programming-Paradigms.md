@@ -1,60 +1,62 @@
 ---
+title: "Paradigmas de programación"
 isChild: true
 ---
+## Paradigmas de programación
 
-## Programming Paradigms
+PHP es un lenguaje flexible y dinámico que soporta una variedad de técnicas de programación. En los
+últimos años ha evolucionado de forma dramática, en especial al añadir un modelo sólido orientado a
+objetos en PHP 5.0 (2004), funciones anónimas y espacios de nombres en PHP 5.3 (2009), y “traits” en
+PHP 5.4 (2012).
 
-PHP is a flexible, dynamic language that supports a variety of programming techniques. It has evolved dramatically over
-the years, notably adding a solid object-oriented model in PHP 5.0 (2004), anonymous functions and namespaces in PHP 5.3 
-(2009), and traits in PHP 5.4 (2012). 
+### Programación orientada a objetos
 
-### Object-oriented Programming
+PHP tiene una gama completa de características de programación orientada a objetos, incluyendo soporte
+para clases, clases abstractas, interfaces, herencia, constructores, clonación, excepciones y mucho más.
 
-PHP has a very complete set of object-oriented programming features including support for classes, abstract classes,
-interfaces, inheritence, constructors, cloning, exceptions, and more.
+* [Lee acerca de PHP orientado a objetos][oop].
+* [Lee acerca de Traits][traits].
 
-* [Read about Object-oriented PHP][oop]
-* [Read about Traits][traits]
+### Programación funcional
 
-### Functional Programming
+PHP soporta funciones de primera clase, lo que significa que una función puede ser asignada a una variable.
+Tanto las funciones propias del lenguaje como las definidas por el usuario pueden ser referenciadas por
+una variable e invocadas dinámicamente. Las funciones pueden ser pasadas como argumentos a otras funciones
+(propiedad llamada Funciones de alto orden) y las funciones pueden retornar otras funciones.
 
-PHP supports first-class function, meaning that a function can be assigned to a variable. Both user defined and built-in 
-functions can be referenced by a variable and invoked dynamically. Functions can be passed as arguments to other
-functions (feature called Higher-order functions) and function can return other functions.
+El lenguaje soporta la recursión, una característica que permite a una función llamarse a sí misma, pero
+la mayoría del código PHP se enfoca en la iteración.
 
-Recursion, a feature that allows a function to call itself is supported by the language, but most of the PHP code focus
-on iteration.
+Las nuevas funciones anónimas (con soporte para clausuras) están presentes desde PHP 5.3 (2009).
 
-New anonymous functions (with support for closures) are present since PHP 5.3 (2009).
+PHP 5.4 agregó la habilidad de atar clausuras al ámbito de un objeto, y también mejoró el soporte para
+llamadas de retorno, tal que puedan ser usadas de forma intercambiable con funciones anónimas en casi
+todos los casos.
 
-PHP 5.4 added the ability to bind closures to an object's scope and also improved support for callables such that they
-can be used interchangeably with anonymous functions in almost all cases.
+* Continúa leyendo en [Programación funcional en PHP](/pages/Functional-Programming.html).
+* [Lee acerca de Funciones anónimas][anonymous-functions].
+* [Lee acerca de la clase Closure][closure-class].
+* [Más detalles en los RFC de Closures][closures-rfc].
+* [Lee acerca de las Llamadas de retorno][callables].
+* [Lee sobre la incovación dinámica de funciones con `call_user_func_array`][call-user-func-array].
 
-* Continue reading on [Functional Programming in PHP](/pages/Functional-Programming.html)
-* [Read about Anonymous Functions][anonymous-functions]
-* [Read about the Closure class][closure-class]
-* [More details in the Closures RFC][closures-rfc]
-* [Read about Callables][callables]
-* [Read about dynamically invoking functions with `call_user_func_array`][call-user-func-array]
+### Metaprogramación
 
-### Meta Programming
+PHP soporta varias formas de metaprogramación a través de mecanismos como el API de Reflexión y los
+Métodos mágicos. Hay muchos Métodos mágicos disponibles como `__get()`, `__set()`, `__clone()`,
+`__toString()`, `__invoke()`, entre otros, que permiten a desarrolladores engancharze al comportamiento
+de una clase. Los desarroladores en Ruby suelen decir que a PHP le falta `method_missing`, pero está
+disponible como `__call()` y `__callStatic()`.
 
-PHP supports various forms of meta programming through mechanisms like the Reflection API and Magic Methods. There are
-many Magic Methods available like `__get()`, `__set()`, `__clone()`, `__toString()`, `__invoke()`, etc. that allow
-developers to hook into class behavior. Ruby developers often say that PHP is lacking `method_missing`, but it is
-available as `__call()` and `__callStatic()`.
+* [Lee acerca de Métodos mágicos][magic-methods].
+* [Lee acerca de Reflexión][reflection].
 
-* [Read about Magic Methods][magic-methods]
-* [Read about Reflection][reflection]
-
-[namespaces]: http://php.net/manual/en/language.namespaces.php
-[overloading]: http://uk.php.net/manual/en/language.oop5.overloading.php
-[oop]: http://www.php.net/manual/en/language.oop5.php
-[anonymous-functions]: http://www.php.net/manual/en/functions.anonymous.php
-[closure-class]: http://php.net/manual/en/class.closure.php
-[callables]: http://php.net/manual/en/language.types.callable.php
-[magic-methods]: http://php.net/manual/en/language.oop5.magic.php
-[reflection]: http://www.php.net/manual/en/intro.reflection.php
-[traits]: http://www.php.net/traits
-[call-user-func-array]: http://php.net/manual/en/function.call-user-func-array.php
+[oop]: http://www.php.net/manual/es/language.oop5.php
+[traits]: http://www.php.net/manual/es/language.oop5.traits.php
+[anonymous-functions]: http://www.php.net/manual/es/functions.anonymous.php
+[closure-class]: http://www.php.net/manual/es/class.closure.php
 [closures-rfc]: https://wiki.php.net/rfc/closures
+[callables]: http://www.php.net/manual/es/language.types.callable.php
+[magic-methods]: http://www.php.net/manual/es/language.oop5.magic.php
+[reflection]: http://www.php.net/manual/es/intro.reflection.php
+[call-user-func-array]: http://www.php.net/manual/es/function.call-user-func-array.php

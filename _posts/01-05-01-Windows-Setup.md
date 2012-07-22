@@ -1,31 +1,38 @@
 ---
+title: "Configuración en Windows"
 isChild: true
 ---
+## Configuración en Windows
 
-## Windows Setup
+En Windows, PHP está disponible de muchas maneras. Puedes [descargar los binarios][php-downloads]
+y hasta hace poco podías utilizar un instalador '.msi'. El instalador ya no es soportado y desaparece
+desde PHP 5.3.0.
 
-PHP is available in several ways for Windows. You can [download the binaries](php-downloads) and until recently you could use a '.msi' 
-installer. The installer is no longer supported and stops at PHP 5.3.0.
+Para aprender y para desarrollo local, puedes utilizar el servidor web embebido con PHP 5.4, de forma que
+no tengas que preocuparte por configurarlo. Si prefieres un “todo en uno” que incluya un completo
+servidor web y también MySQL, entonces herramientas como [Web Platform Installer][wpi], [XAMPP][xampp]
+y [WAMP][wamp] te ayudarán a tener andando un entorno rápido de desarrollo en Windows. Con eso dicho,
+estas herramientas son un poco diferentes a las de producción, así que ten cuidado de las diferencias
+de entorno si estás trabajando en Windows y desplegando a Linux.
 
-For learning and local development you can use the built in webserver with PHP 5.4 so you don't need to worry about configuring it. If you 
-would like an "all-in-one" which includes a full-blown webserver and MySQL too then tools such as the [Web Platform Installer][wpi], 
-[XAMPP][xampp] and [WAMP][wamp] will help get a Windows development environment up and running fast. That said, these tools will be 
-a little different from production so be careful of environment differences if you are working on Windows and deploying to Linux.
+Si necesitas poner a andar tu sistema de producción sobre Windows, entonces IIS7 te dará la mejor
+estabilidad y rendimiendo. Puedes utilizar [phpmanager][phpmanager] (una interfaz para IIS7) para hacer
+simple la tarea de configurar y administrar PHP. IIS7 viene con FastCGI incorporado y listo para andar,
+tan solo tienes que conigurarle el módulo de PHP. Para soporte y recursos adicionales, hay un
+[área dedicada en iis.net][php-iis] para PHP.
 
-If you need to run your production system on Windows then IIS7 will give you the most stable and best performance. You can use 
-[phpmanager][phpmanager] (a GUI plugin for IIS7) to make configuring and managing PHP simple. IIS7 comes with FastCGI built in and ready 
-to go, you just need to configure PHP as a handler. For support and additional resources there is a [dedicated area on iis.net][php-iis] for 
-PHP.
+Generalmente ejecutar tu aplicación en un entorno diferente en desarrollo y en producción puede llevar
+a anomalías apareciendo cuando publicas tus cambios en producción. Si estás desarrollando en Windows y
+desplegando en Linux (o cualquier sistema diferente de Windows), entonces deberías considerar una
+máquina virtual. Esto suena engorroso, pero usando [Vagrant][vagrant] puedes configurar paquetes simples,
+para que luego utilizando [Puppet][puppet] o [Chef][chef] puedas gestionar estos paquetes y compartirlos
+con tus colegas para asegurarte de que todos están trabajando sobre una misma base. Más sobre esto pronto.
 
-Generally running your application on different environment in development and production can lead to strange bugs popping up when you go 
-live. If you are developing on Windows and deploying to Linux (or anything non-Windows) then you should consider using a Virtual Machine. This 
-sounds tricky, but using [Vagrant][vagrant] you can set up simple wrappers, then using [Puppet][puppet] or [Chef][chef] you can provision these boxes and share them with your colleagues to ensure you're all working on the same stack. More on this soon.
-
-[php-downloads]: http://windows.php.net
-[phpmanager]: http://phpmanager.codeplex.com/
+[php-downloads]: http://windows.php.net/download/
 [wpi]: http://www.microsoft.com/web/downloads/platform.aspx
-[xampp]: http://www.apachefriends.org/en/xampp.html
+[xampp]: http://www.apachefriends.org/es/xampp.html
 [wamp]: http://www.wampserver.com/
+[phpmanager]: http://phpmanager.codeplex.com/
 [php-iis]: http://php.iis.net/
 [vagrant]: http://vagrantup.com/
 [puppet]: http://www.puppetlabs.com/
