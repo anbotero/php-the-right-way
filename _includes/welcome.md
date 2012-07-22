@@ -1,28 +1,31 @@
-# Welcome
+# Bienvenida
 
-There's a lot of outdated information on the Web that leads new PHP users astray, propagating bad practices and bad
-code. This must stop. _PHP: The Right Way_ is an easy-to-read, quick reference for PHP best practices, accepted coding
-standards, and links to authoritative tutorials around the Web.
+Hay mucha información desactualizada en la Web que lleva a que nuevos usuarios de PHP se desvíen,
+propagando malas prácticas y código incorrecto. Esto debe parar. _PHP: The Right Way_ es una referencia
+rápida y fácil de leer de las mejores prácticas de PHP, estándares de codificación aceptados,
+y vínculos a guías autoritativas en la Web.
 
-## Disclaimer
+## Aclaración
 
-_There is no canonical way to use PHP_. However, this website is a humble display of best practices,
-available options, and good information. It aims to introduce new PHP developers and to rethink seasoned pros with fresh
-ideas.
+_No hay forma canónica de utilizar PHP_. Sin embargo, este sitio web es una humilde demostración
+de buena información, opciones disponibles y de las mejores prácticas. Se busca introducir nuevos
+desarrolladores a PHP, y que desarrolladores experimentados se replanteen con ideas frescas.
 
-This is a living document and will continue to be updated with more helpful information and examples as they become
-available.
+Éste es un documento activo, y seguirá siendo actualizado con más información útil y ejemplos
+en cuanto se hagan disponibles.
 
-## How to Contribute
+## Cómo contribuir
 
-Help make this website the best resource for new PHP programmers! [Contribute on GitHub][1]
+¡Ayuda haciendo de este sitio web el mejor recurso para nuevos programadores en PHP!
+[Contribuye en GitHub][1].
 
-## Spread the Word!
+## ¡Corre la voz!
 
-_PHP: The Right Way_ has web banner images you can use on your website. Show your support, and let new PHP developers
-know where to find good information!
+_PHP: The Right Way_ tiene imágenes de anuncios web que puedes utilizar en tu sitio web.
+¡Muestra tu apoyo, y permite que nuevos desarrolladores en PHP conozcan dónde encontrar buena
+información!
 
-[See Banner Images][2]
+[Ver las imágenes de anuncios web][2].
 
 [1]: https://github.com/codeguy/php-the-right-way/tree/gh-pages
 [2]: /banners.html
