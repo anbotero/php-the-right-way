@@ -1,8 +1,8 @@
 ---
+title: "Archivos de configuración"
 isChild: true
 ---
-
-## Configuration Files
+## Archivos de configuración
 
 When creating configuration files for your applications, best practices recommend that one of the following methods 
 be followed:

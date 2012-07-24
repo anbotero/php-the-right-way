@@ -23,10 +23,10 @@ tan solo tienes que conigurarle el módulo de PHP. Para soporte y recursos adici
 
 Generalmente ejecutar tu aplicación en un entorno diferente en desarrollo y en producción puede llevar
 a anomalías apareciendo cuando publicas tus cambios en producción. Si estás desarrollando en Windows y
-desplegando en Linux (o cualquier sistema diferente de Windows), entonces deberías considerar una
+desplegando a Linux (o cualquier sistema diferente de Windows), entonces deberías considerar una
 máquina virtual. Esto suena engorroso, pero usando [Vagrant][vagrant] puedes configurar paquetes simples,
 para que luego utilizando [Puppet][puppet] o [Chef][chef] puedas gestionar estos paquetes y compartirlos
-con tus colegas para asegurarte de que todos están trabajando sobre una misma base. Más sobre esto pronto.
+con tus colegas para asegurarte de que todos están trabajando sobre una misma base. Más sobre en breve.
 
 [php-downloads]: http://windows.php.net/download/
 [wpi]: http://www.microsoft.com/web/downloads/platform.aspx

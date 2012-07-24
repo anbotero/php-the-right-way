@@ -1,8 +1,7 @@
 ---
-title: Databases
+title: "Bases de datos"
 ---
-
-# Databases
+# Bases de datos
 
 Many times your PHP code will use a database to persist information. You have a few options to connect and interact
 with your database. The recommended option _until PHP 5.1.0_ was to use native drivers such as [mysql][mysql], [mysqli][mysqli], [pgsql][pgsql], etc.
@@ -65,11 +64,11 @@ Some abstraction layers have been built using the PSR-0 namespace standard so ca
 * [ZF2 Db][4]
 * [ZF1 Db][3]
 
-[1]: http://www.php.net/manual/en/book.pdo.php
+[1]: http://www.php.net/manual/es/book.pdo.php
 [2]: http://www.doctrine-project.org/projects/dbal.html
 [3]: http://framework.zend.com/manual/en/zend.db.html
 [4]: http://packages.zendframework.com/docs/latest/manual/en/zend.db.html
 
-[mysql]: http://uk.php.net/mysql
-[mysqli]: http://uk.php.net/mysqli
-[pgsql]: http://uk.php.net/pgsql
+[mysql]: http://www.php.net/mysql
+[mysqli]: http://www.php.net/mysqli
+[pgsql]: http://www.php.net/pgsql

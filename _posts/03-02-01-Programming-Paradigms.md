@@ -4,7 +4,7 @@ isChild: true
 ---
 ## Paradigmas de programación
 
-PHP es un lenguaje flexible y dinámico que soporta una variedad de técnicas de programación. En los
+PHP es un lenguaje dinámico y flexible que soporta una variedad de técnicas de programación. En los
 últimos años ha evolucionado de forma dramática, en especial al añadir un modelo sólido orientado a
 objetos en PHP 5.0 (2004), funciones anónimas y espacios de nombres en PHP 5.3 (2009), y “traits” en
 PHP 5.4 (2012).
@@ -27,7 +27,7 @@ una variable e invocadas dinámicamente. Las funciones pueden ser pasadas como a
 El lenguaje soporta la recursión, una característica que permite a una función llamarse a sí misma, pero
 la mayoría del código PHP se enfoca en la iteración.
 
-Las nuevas funciones anónimas (con soporte para clausuras) están presentes desde PHP 5.3 (2009).
+Las funciones anónimas (con soporte para clausuras) implementadas están presentes desde PHP 5.3 (2009).
 
 PHP 5.4 agregó la habilidad de atar clausuras al ámbito de un objeto, y también mejoró el soporte para
 llamadas de retorno, tal que puedan ser usadas de forma intercambiable con funciones anónimas en casi
@@ -35,8 +35,8 @@ todos los casos.
 
 * Continúa leyendo en [Programación funcional en PHP](/pages/Functional-Programming.html).
 * [Lee acerca de Funciones anónimas][anonymous-functions].
-* [Lee acerca de la clase Closure][closure-class].
-* [Más detalles en los RFC de Closures][closures-rfc].
+* [Lee acerca de la clase Clausura][closure-class].
+* [Más detalles en los RFC de Clausuras][closures-rfc].
 * [Lee acerca de las Llamadas de retorno][callables].
 * [Lee sobre la incovación dinámica de funciones con `call_user_func_array`][call-user-func-array].
 

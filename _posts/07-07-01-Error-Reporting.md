@@ -1,8 +1,8 @@
 ---
+title: "Reporte de errores"
 isChild: true
 ---
-
-## Error Reporting
+## Reporte de errores
 
 Error logging can be useful in finding the problem spots in your application, but it can also expose infromation about 
 the structure of your application to the outside world. To effectively protect your application from issues that could 

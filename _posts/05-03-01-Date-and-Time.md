@@ -1,8 +1,8 @@
 ---
+title: "Fecha y hora"
 isChild: true
 ---
-
-## Date and Time
+## Fecha y hora
 
 PHP has a class named DateTime to help you when reading, writing, comparing or calculating with date and time. There are
 many date and time related functions in PHP besides DateTime, but it provides nice object-oriented interface to most
@@ -59,5 +59,5 @@ foreach($periodIterator as $date)
 * [Read about DateTime][datetime]
 * [Read about date formatting][dateformat] (accepted date format string options)
 
-[datetime]: http://www.php.net/manual/book.datetime.php
-[dateformat]: http://www.php.net/manual/function.date.php
+[datetime]: http://www.php.net/manual/es/book.datetime.php
+[dateformat]: http://www.php.net/manual/es/function.date.php

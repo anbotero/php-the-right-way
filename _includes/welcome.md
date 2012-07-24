@@ -5,17 +5,17 @@ propagando malas prácticas y código incorrecto. Esto debe parar. _PHP: The Rig
 rápida y fácil de leer de las mejores prácticas de PHP, estándares de codificación aceptados,
 y vínculos a guías autoritativas en la Web.
 
-## Translations
+## Traducciones
 
-_PHP: The Right Way_ is (or soon will be) translated into many different languages:
+_PHP: The Right Way_ es (o pronto será) traducido en muchos idiomas:
 
-* [English](http://www.phptherightway.com)
-* [Chinese](http://wulijun.github.com/php-the-right-way)
-* Japanese (Coming Soon)
-* Russian (Coming Soon)
-* Spanish (Coming Soon)
+* [Inglés](http://www.phptherightway.com).
+* [Chino](http://wulijun.github.com/php-the-right-way).
+* [Español](http://es.phptherightway.com).
+* Japonés (En breve).
+* Ruso (En breve).
 
-## Disclaimer
+## Aclaración
 
 _No hay forma canónica de utilizar PHP_. Sin embargo, este sitio web es una humilde demostración
 de buena información, opciones disponibles y de las mejores prácticas. Se busca introducir nuevos

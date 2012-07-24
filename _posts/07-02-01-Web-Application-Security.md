@@ -1,8 +1,8 @@
 ---
+title: "Seguridad de las aplicaciones web"
 isChild: true
 ---
-
-## Web Application Security
+## Seguridad de las aplicaciones web
 
 There are bad people ready and willing to exploit your web application. It is important that you
  take necessary precautions to harden your web application's security. Luckily, the fine folks at [The Open Web Application Security Project][1] (OWASP) have compiled a comprehensive list of known security issues and methods to protect yourself against them. This is a must read for the security-conscious developer.

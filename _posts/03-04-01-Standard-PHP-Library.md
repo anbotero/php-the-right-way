@@ -1,12 +1,14 @@
 ---
-title:   Standard PHP Library
+title: "Biblioteca estándar de PHP"
 isChild: true
 ---
+## Biblioteca estándar de PHP
 
-## Standard PHP Library
+La biblioteca estándar de PHP (SPL) viene empaquetada con PHP, y provee una colección de clases e
+interfaces. En primera instancia, está compuesta por clases comunes de estructuras de datos (pila,
+cola, montículo, y así), e iteradores que pueden recorrer estas estructuras de datos o clases propias
+que implementen las interfaces SPL.
 
-The Standard PHP Library (SPL) is packaged with PHP and provides a collection of classes and interfaces. It is made up primarily of commonly needed datastructure classes (stack, queue, heap, and so on), and iterators which can traverse over these datastructures or your own classes which implement SPL interfaces.
+* [Lee acerca de la SPL][spl].
 
-* [Read about the SPL][spl]
-
-[spl]: http://php.net/manual/en/book.spl.php 
+[spl]: http://www.php.net/manual/es/book.spl.php
