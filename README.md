@@ -20,7 +20,7 @@ información!
 ## Cómo contribuir
 
 1. Saca tu **Fork** y edita.
-2. Opcionalmente instala [Ruby](https://rvm.io/rvm/install/) con la gema [Jekyll](https://github.com/mojombo/jekyll/)
+2. Opcionalmente instala [Ruby](https://rvm.io/rvm/install/) con la gema [Jekyll](https://github.com/mojombo/jekyll/).
    para visualizar localmente.
 3. Envía tu **Pull Request** para consideración.
 
@@ -35,6 +35,10 @@ información!
 ## Dónde
 
 <http://www.phptherightway.com>
+
+* [Inglés](http://www.phptherightway.com).
+* [Chino](http://wulijun.github.com/php-the-right-way).
+* [Español](http://es.phptherightway.com).
 
 ### Traducciones
 

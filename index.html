@@ -12,6 +12,8 @@ description: "Una referencia rápida y fácil de leer de las mejores prácticas 
     {% if post.isChild != true and loop.first != true %}
     {{ backtotop|markdownify }}
     {% endif %}
+    <div id="{{ post.title | downcase | replace:' ','_' | replace:'(','' | replace:')','' | replace:'.','' | replace:'-','' | replace:'á','' | replace:'é','' | replace:'í','' | replace:'ó','' | replace:'ú','' | replace:'¿','' | replace:'¡','' }}">
     {{ post.content }}
+    </div>
 {% endfor %}
 {{ backtotop|markdownify }}
